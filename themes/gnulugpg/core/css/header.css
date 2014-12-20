@@ -21,7 +21,7 @@
 	z-index: 100;
 	height: 45px;
 	line-height: 2.5em;
-	background-color: #1d2d44;
+	background-color: #005A84;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -252,7 +252,7 @@
 
 #settings {
 	float: right;
-	color: #bbb;
+	color: #fff;
 	cursor: pointer;
 }
 #expand {
