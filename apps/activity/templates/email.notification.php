@@ -21,7 +21,7 @@ p("\n");
 p("\n");
 
 foreach ($_['activities'] as $activity) {
-	p($l->t('* %s', array($activity)));
+	print_unescaped($l->t('* %1$s - %2$s', $activityData));
 	p("\n");
 }
 p("\n");
