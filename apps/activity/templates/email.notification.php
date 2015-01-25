@@ -11,11 +11,11 @@ p("\n");
 p("\n");
 
 if ($_['timeframe'] == \OCA\Activity\UserSettings::EMAIL_SEND_HOURLY) {
-	p($l->t('Stai ricevendo questa email perché nell\'ultima ora sono state fatte le seguenti attività su %s', array($_['owncloud_installation'])));
+	p($l->t("Stai ricevendo questa email perché nell'ultima ora sono state fatte le seguenti attività su %s", array($_['owncloud_installation'])));
 } else if ($_['timeframe'] == \OCA\Activity\UserSettings::EMAIL_SEND_DAILY) {
-	p($l->t('Stai ricevendo questa email perché nell\'ultimo giorno sono state fatte le seguenti attività su %s', array($_['owncloud_installation'])));
+	p($l->t("Stai ricevendo questa email perché nell'ultimo giorno sono state fatte le seguenti attività su %s", array($_['owncloud_installation'])));
 } else {
-	p($l->t('Stai ricevendo questa email perché nell\'ultima settimana sono state fatte le seguenti attività su %s', array($_['owncloud_installation'])));
+	p($l->t("Stai ricevendo questa email perché nell'ultima settimana sono state fatte le seguenti attività su %s", array($_['owncloud_installation'])));
 }
 p("\n");
 p("\n");
